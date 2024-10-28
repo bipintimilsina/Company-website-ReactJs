@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+#header{
+  width: 100%;
+  height: 80vh;
+  
+}
+#header.brand-name{
+  color: #3498db;
+
+}
+
+
+.navbar-brand{
+  /* fonst */
+}
+.navbar{
+  background: #fff;
+
+}
+
+
+
+
+.navbar-nav {
+  margin-left: auto;
+}
+body{
+  font-family: "Mulish", serif;
+}
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: #565387 !important;
+
+}
+
+
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+
+}
+
+.navbar a:hover{
+  color: #3498db !important;
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+
+.navbar a:first-of-type{
+  border: none;
+  font-weight: normal;
+
+
+}
+.menu_active:active{
+
+}
+
+
+#header.animated{
+  animation:up-down 2s ease-in-out infinite alternate-reverse both
+}
+
+
+/* Inline #1 | http://localhost:5173/ */
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    justify-content: end;
+  }
+}
+
+/* Element | http://localhost:5173/ */
+
+.navbar-nav {
+  width: 100%;
+}
+
+
+.nav-bg{
+  background-color: white;
+}
+
+
+
+.col-md-6 > form:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* gap: ; */
+  gap: 10px;
+}
